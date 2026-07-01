@@ -1,0 +1,9 @@
+[project]
+name = "shl-conversational-recommender"
+version = "1.0.0"
+description = "FastAPI conversational recommender for SHL Individual Test Solutions."
+requires-python = ">=3.12"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
